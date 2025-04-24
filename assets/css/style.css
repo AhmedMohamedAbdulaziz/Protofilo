@@ -230,6 +230,10 @@ section{
 .services{
     background: var(--bg-color);
     color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .services h2{
     color: var(--text-color);
@@ -282,6 +286,10 @@ section{
 /* Section Projects */
 .project{
     background: var(--second-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .projects-box{
     display: grid;
